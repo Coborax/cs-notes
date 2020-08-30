@@ -3,7 +3,7 @@ attachments: [Clipboard_2020-08-30-20-06-18.png, Clipboard_2020-08-30-20-06-58.p
 tags: [SDE]
 title: Introduction to UML
 created: '2020-08-30T17:58:16.390Z'
-modified: '2020-08-30T18:25:32.687Z'
+modified: '2020-08-30T18:45:22.043Z'
 ---
 
 # Introduction to UML
@@ -33,6 +33,7 @@ modified: '2020-08-30T18:25:32.687Z'
   - ...read about software development
   - ...read design patterns
   - ...write reports
+
 ![class diagram](@attachment/Clipboard_2020-08-30-20-08-38.png)
 
 ## Class diagrams - A few tips
