@@ -1,9 +1,9 @@
 ---
-attachments: [Clipboard_2020-08-30-20-26-34.png]
+attachments: [Clipboard_2020-08-30-20-26-34.png, Clipboard_2020-08-31-14-05-52.png]
 tags: [SDE]
 title: UML - Class Diagrams
 created: '2020-08-30T18:25:57.819Z'
-modified: '2020-08-30T18:38:46.075Z'
+modified: '2020-08-31T12:07:54.597Z'
 ---
 
 # UML - Class Diagrams
@@ -22,11 +22,35 @@ modified: '2020-08-30T18:38:46.075Z'
   - Associations
     - Variable points to an object
 - **Full syntax:** visibility name: type
-  - **Example** - wormsEaten: int
+  - **Example:** - wormsEaten: int
 
 ### Operations
 - Operations are the actions that a class can do (Bescribes the behaviour of the class)
 - Normally one would not show operations that manipulates properties in a simple way
   - Like getters and setters
 - **Full syntax:** visibility name(parameter list): return type
-  - **Example** + switchImage(): void
+  - **Example:** + switchImage(): void
+
+### Examples from class
+#### Diagram
+```mermaid
+classDiagram
+class Teacher{
+  - name: String
+  + age: int
+  + teach(): void
+  + getGrade(amountOfChocolate: int): int
+}
+```
+#### Code
+```java
+public class Teacher {
+  private String name;
+  public int age;
+
+  public void teach() { ... }
+  public int getGrade(int amountOfChocolate) { ... }
+}
+```
+#### Greenfoot wombat example
+![](@attachment/Clipboard_2020-08-31-14-05-52.png)
